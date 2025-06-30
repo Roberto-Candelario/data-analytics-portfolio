@@ -1,0 +1,22 @@
+# Python libraries for NYC 311 analysis
+
+# Core data analysis libraries
+pandas>=1.5.0
+numpy>=1.24.0
+
+# Visualization
+matplotlib>=3.6.0
+seaborn>=0.12.0
+plotly>=5.11.0
+
+# Jupyter environment  
+jupyter>=1.0.0
+ipython>=8.0.0
+
+# Utilities
+openpyxl>=3.0.0  # For Excel export functionality
+
+# Optional extras for future enhancements
+scikit-learn>=1.1.0  # If you want to add predictive modeling
+folium>=0.12.0       # For interactive maps
+python-dateutil>=2.8.0 

@@ -4,6 +4,39 @@ PORTFOLIO_TEMPLATE.md
 .cursor
 kaggle.json
 
+# AI/ML tool files and history
+.cursor/
+.cursor-tutor/
+cursor.history
+.vscode-cursor/
+.cursor-settings/
+*.cursor-chat
+**/cursor/**
+**/.cursor/**
+.copilot/
+.github-copilot/
+copilot-chat-history.*
+chatgpt-history.*
+claude-history.*
+ai-chat-log.*
+*.ai-session
+.openai-session
+.anthropic-session
+
+# Personal information and credentials
+personal_notes.*
+private_*
+secret_*
+credential*
+api_key*
+token*
+password*
+auth*
+login*
+.env*
+config.json
+settings.json
+
 # IDE and development environment files
 .vscode/
 .idea/
