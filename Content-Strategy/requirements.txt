@@ -1,0 +1,29 @@
+# Netflix Content Strategy Analysis - Python Dependencies
+# Project: Netflix Content Strategy & Market Analysis
+# Date: 2024-01-15
+
+# Core Data Analysis
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Data Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Jupyter Environment
+jupyter>=1.0.0
+ipykernel>=6.25.0
+
+# Data Acquisition
+kaggle>=1.5.16
+
+# Utilities
+python-dateutil>=2.8.2
+pytz>=2023.3
+
+# Optional: Enhanced Analysis (uncomment if needed)
+# scikit-learn>=1.3.0      # For machine learning models
+# plotly>=5.15.0           # For interactive visualizations  
+# dash>=2.14.0             # For dashboard creation
+# openpyxl>=3.1.0          # For Excel file handling
+# xlsxwriter>=3.1.0        # For Excel export functionality 

@@ -1,0 +1,32 @@
+# Facebook Metrics Analysis - Requirements
+# Project: Facebook Post Performance Analysis
+# Author: Data Analytics Portfolio
+# Date: 2024-12-19
+
+# Core Data Science Libraries
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.6.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+scipy>=1.10.0
+
+# Data Loading
+ucimlrepo>=0.0.6
+
+# Jupyter Notebook
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Optional: For enhanced visualizations
+plotly-express>=0.4.0
+kaleido>=0.2.1
+
+# Data Processing
+python-dateutil>=2.8.0
+
+# Statistical Analysis
+statsmodels>=0.14.0 

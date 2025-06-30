@@ -1,0 +1,171 @@
+# Portfolio-specific files
+PORTFOLIO_TEMPLATE.md 
+.cursor/
+.cursor
+kaggle.json
+
+# IDE and development environment files
+.vscode/
+.idea/
+*.code-workspace
+.devcontainer/
+
+# Data files (usually too large for GitHub)
+# Raw data files
+data/raw/*.csv
+data/raw/*.json
+data/raw/*.xlsx
+data/raw/*.xls
+data/raw/*.parquet
+data/raw/*.pkl
+data/raw/*.sqlite
+data/raw/*.db
+
+# Processed data files  
+data/processed/*.csv
+data/processed/*.json
+data/processed/*.xlsx
+data/processed/*.xls
+data/processed/*.parquet
+data/processed/*.pkl
+data/processed/*.sqlite
+data/processed/*.db
+
+# Large files (>10MB) - adjust size as needed
+*.csv
+*.json
+*.xlsx
+*.xls
+*.parquet
+*.pkl
+*.sqlite
+*.db
+*.hdf5
+*.h5
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.tar.bz2
+
+# Large dataset files (specific patterns)
+**/data/raw/*.csv
+**/data/processed/*.csv
+**/data/**/*.csv
+**/data/**/*.json
+**/data/**/*.zip
+**/data/**/*.pkl
+**/data/**/*.parquet
+
+# But keep small sample/example data files
+!**/sample_*.csv
+!**/example_*.csv
+!**/test_*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+**/.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Jupyter Notebook outputs (can contain sensitive data)
+**/notebooks/**/*.ipynb.backup
+**/notebooks/**/*-checkpoint.ipynb
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+.ENV/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.key
+*.pem
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# macOS system files (comprehensive)
+**/.DS_Store
+*/.DS_Store
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+*.log
+logs/
+
+# Dashboard working files (keep final exports/screenshots)
+# Tableau
+*.twb
+*.twbx
+*.tds
+*.tdsx
+*.hyper
+
+# Power BI
+*.pbix
+*.pbit
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# Model files (can be large)
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.model
+
+# Output files
+*.out
+*.output
+
+# Cache directories
+.cache/
+.pytest_cache/
