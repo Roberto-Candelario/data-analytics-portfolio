@@ -187,6 +187,11 @@ logs/
 *.tmp
 *.temp
 ~$*
+*.bak
+*.backup
+*.orig
+*.rej
+*~
 
 # Model files (can be large)
 *.pkl
@@ -194,6 +199,9 @@ logs/
 *.h5
 *.hdf5
 *.model
+*.onnx
+*.pt
+*.pth
 
 # Output files
 *.out
@@ -202,3 +210,19 @@ logs/
 # Cache directories
 .cache/
 .pytest_cache/
+.mypy_cache/
+.tox/
+
+# Additional data science files
+*.feather
+*.arrow
+*.dvc
+.dvc/
+mlruns/
+.mlflow/
+wandb/
+.neptune/
+
+# Notebook outputs and metadata
+*.nbconvert.py
+.ipynb_backup
