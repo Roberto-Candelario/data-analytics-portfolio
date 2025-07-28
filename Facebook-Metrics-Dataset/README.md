@@ -243,7 +243,7 @@ We welcome contributions to enhance this analysis! Please:
 ## 📧 Contact
 
 **Data Analyst**: Roberto Candelario  
-**Email**: roberto.candelario@email.com
+**Email**: rj_je@icloud.com
 **LinkedIn**: linkedin.com/in/roberto-candelario
 **Portfolio**: robertocandelario.github.io
 
